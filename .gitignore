@@ -1,2 +1,3 @@
 .DS_Store
+**/.DS_Store
 # anything listed in this file will not be tracked by git.
