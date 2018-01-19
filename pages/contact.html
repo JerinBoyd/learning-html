@@ -12,9 +12,32 @@
             <h1>Contact Us</h1>
         </head>
         <main>
-            <address></address>
+            <address>
+                555 South Main, Nowhere, Somewhere 32608
+            </address>
             <!-- Address is for the static address -->
-            <section></section>
+            <section>
+                <h2>Have a question</h2>
+                <!-- By default, the following form has a method="get" -->
+                <!-- it is same as <form action="contact.html" method="post" -->
+
+                <form action="contact.html">
+                    <label for="">Full Name</label>
+                    <input type="text"name=FullName="">
+                    <label for="Email">Email:</label>
+                    <input type="Email" name="Email" id="">
+                    <label for="question">Question</label>
+                    <textarea name="question" cols="30" rows="10"></textarea> 
+
+
+                    <!-- There are two ways to create a form button. -->
+
+                    <!-- <input type="button" value="Submit"> -->
+                    <!-- <input type="button" value="Submit Again"> -->
+                    <!--The above is not a favorite -->
+                    <button>Submit</button>
+                </form>
+            </section>
             <!-- This section will contain info -->
         </main>
         <footer>
